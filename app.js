@@ -900,12 +900,13 @@ var Controller = (function (budgetCtrl, UICtrl) {
 
         if (header.childElementCount > 0) {
             catagory = header.firstChild.classList[1];
-            ctrlUpdateDetails(catagory);
+            catagory = catagory.split('-');
 
-            if (percentages[catagory] === 0 ||
-                percentages[catagory] === NaN ||
-                percentages[catagory] === undefined ||
-                percentages[catagory] === Infinity) {
+            console.log(percentages[catagory[0]])
+            if (percentages[catagory[0]] === 0 ||
+                isNaN(percentages[catagory[0]]) ||
+                percentages[catagory[0]] === undefined ||
+                percentages[catagory[0]] === Infinity) {
 
                     UICtrl.slideToNextDiv();
                     UICtrl.clearDetailContainer();

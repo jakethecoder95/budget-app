@@ -315,10 +315,9 @@ h2 {
     grid-template-columns: 55% 45%;
     width: 100%;
     right: -100%;
-    top: 90px;
+    top: 75px;
     opacity: 0;
-    padding: 70px 100px;
-    zoom: 75%;
+    padding: 35px 100px;
 }
 .chart-container {
     height: 700px;
@@ -330,6 +329,7 @@ canvas {
     -webkit-user-select: none;
     -ms-user-select: none;
     margin-left: 15%;
+    height: 465px;
 }
 
 .doughnut__chart {
@@ -347,11 +347,11 @@ canvas {
     vertical-align: middle;
     margin-left: 10px;
     padding: 0;
+    zoom: 75%;
 }
 .chart__btn__forward {
     right: -300px;
     top: -40px;
-    zoom: 75%;
 }
 
 .chart__btn__back {
@@ -402,6 +402,7 @@ hr {
 .descriptions__container {
     position: relative;
     padding: 0 10%;
+    zoom: 75%;
 }
 .overview__container, .details__container {
     position: absolute;
@@ -624,7 +625,7 @@ hr {
 @keyframes to-the-left-1 {
     0% { transform: translateX(0); opacity: 0;}
     30% { opacity: .25}
-    100% {transform: translateX(-100%); opacity: 1;}
+    100% {transform: translateX(-98%); opacity: 1;}
 }
 @keyframes to-right-delay {
     0% { transform: translateX(-50%); opacity: 0; display: block}
