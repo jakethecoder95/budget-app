@@ -315,9 +315,10 @@ h2 {
     grid-template-columns: 55% 45%;
     width: 100%;
     right: -100%;
-    top: 44px;
+    top: 90px;
     opacity: 0;
-    padding: 100px;
+    padding: 70px 100px;
+    zoom: 75%;
 }
 .chart-container {
     height: 700px;
@@ -333,8 +334,6 @@ canvas {
 
 .doughnut__chart {
     display: block;
-    min-width: 1200px;
-    min-height: 600px;
 }
 
 .chart__btn__forward, .chart__btn__back {
@@ -352,6 +351,7 @@ canvas {
 .chart__btn__forward {
     right: -300px;
     top: -40px;
+    zoom: 75%;
 }
 
 .chart__btn__back {
