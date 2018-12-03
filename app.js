@@ -1,3 +1,11 @@
+/*******************************************************************************************
+ *
+ *   1) budgetController (line 10)    Deals with all the calculations and the data.
+ *   2) UIController     (line 244)  Deals with the design logic, including chart rendering.
+ *   3) Controller       (line 790)  Contolls the whole application.
+ *
+ *******************************************************************************************/
+
 // Budget Controller
 var budgetController = (function () {
 
